@@ -1,0 +1,14 @@
+.goalform {
+    width: 80vw;
+    min-width: 320px;
+    max-width: 960px;
+    /* min-height: 600px; */
+}
+
+.goalform .row {
+    display: flex;
+}
+
+.goalform .row.right {
+    justify-content: flex-end;
+}

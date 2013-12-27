@@ -1,0 +1,27 @@
+.settings-wrapper {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 16px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.settings__column-wrapper, .settings__column-wrapper--center {
+    /* max-width: 300px; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+}
+
+.settings__column-wrapper--center {
+    align-items: center;
+}
+
+.settings__setting-row {
+    margin: 32px 0;
+}
+
+h4.settings-title {
+    margin: 16px 0;
+}

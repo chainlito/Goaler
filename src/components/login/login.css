@@ -1,0 +1,58 @@
+div.login-titleCard {
+    position: relative;
+    max-width: 1236px;
+    max-height: 90vh;
+    margin: auto;
+    background-color: transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+div.login-titleCard_container {
+    /* position: absolute; */
+    position: relative;
+    /* top: 10%; */
+    /* right: 10%; */
+    padding: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h5.login-titleCard_actionCall {
+    /* margin-top: auto; */
+    margin-top: 50px;
+}
+
+.login-titleCard_dashBtn {
+    align-self: flex-end;
+    max-width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    h2.login-titleCard_title {
+        font-size: 1.8em;
+    }
+    h5.login-titleCard_subtitle {
+        font-size: 1em;
+    }
+    /* h5.login-titleCard_actionCall { */
+        /* margin-bottom: 20%; */
+    /* } */
+}
+
+@media screen and (max-width: 400px) {
+    div.login-titleCard {
+        height: 450px;
+        background-color: transparent;
+    }
+    .login-titleCard_container {
+        /* top: 60%; */
+    }
+    img.login-titleCard_img {
+        display: none;
+    }
+    h5.login-titleCard_actionCall {
+        margin: 10px;
+    }
+}

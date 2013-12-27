@@ -1,0 +1,30 @@
+div.repeatform-buttonGrp {
+    justify-content: center;
+}
+
+.repeatform-hourInput {
+    max-width: 100px;
+}
+
+.repeatform-hourInput-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.repeatform-chipWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+div.repeatform-goalField {
+    padding: 20px
+}
+
+@media screen and (max-width: 680px) {
+    div.repeatform-buttonGrp {
+        flex-direction: column;
+        padding-left: 20px;
+        flex-wrap: wrap;
+        max-height: 200px;
+    }
+}

@@ -1,0 +1,12 @@
+.about {
+    height: 100%;
+    max-width: 100%;
+}
+
+.about-card {
+    margin: 16px;
+}
+
+.about-card a {
+    text-decoration: underline;
+}
